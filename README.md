@@ -7,5 +7,8 @@
 - conda create -n fraud python=3.9 -y
 - conda activate fraud
 
+## setup.py file
+- python setup.py install
+
 ## requirements.txt
 - pip install -r requirements.txt

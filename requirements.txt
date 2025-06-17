@@ -1,0 +1,27 @@
+pandas # for data manipulation
+evidently==0.4.15 # for data drift analysis
+numpy==1.26.4 # for numerical operations
+python-box==6.0.2 # to enable dot-access (config.key instead of config['key']) to dictionaries, 
+                    # making config handling cleaner and more intuitive in Python projects.
+matplotlib # for plotting
+seaborn
+scikit-learn # for machine learning
+scipy # for statistical operations
+xgboost # for gradient boosting
+ipykernel # for Jupyter kernel support
+plotly # for interactive plotting
+imblearn # for imbalanced-learn, handling imbalanced datasets
+catboost # for categorical boosting
+pymysql # for mysql conncetion
+dvc # for data versioning and pipeline tracking
+PyYAML # for YAML file handling
+certifi # for SSL certificate validation
+pydantic==1.10.13 # to define and manage data validation models using Pydantic's BaseModel, ensuring structured, type-safe data handling in Python applications.
+dill # for serializing Python objects
+python-multipart # for handling multipart/form-data, useful in web applications
+cryptography # for cryptographic operations
+pymysql[crypto] # for MySQL connection with cryptography support
+from_root # for resolving paths relative to the project root
+
+-e . # for local development, allowing the package to be installed in editable mode
+# Note: The versions specified are examples and may need to be updated based on compatibility and project requirements.

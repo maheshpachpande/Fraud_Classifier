@@ -22,6 +22,6 @@ python-multipart # for handling multipart/form-data, useful in web applications
 cryptography # for cryptographic operations
 pymysql[crypto] # for MySQL connection with cryptography support
 from_root # for resolving paths relative to the project root
-
+ensure # for ensuring that certain conditions are met in the code, useful for validation
 -e . # for local development, allowing the package to be installed in editable mode
 # Note: The versions specified are examples and may need to be updated based on compatibility and project requirements.

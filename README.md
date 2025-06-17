@@ -12,3 +12,10 @@
 
 ## requirements.txt
 - pip install -r requirements.txt
+
+## logger added at scr.fraudClassifier (___init__.py)
+
+## exception added
+
+## common utils added
+
